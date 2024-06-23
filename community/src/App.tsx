@@ -2,19 +2,14 @@ import React from 'react';
 // import Header from './components/Header';
 // import MainContent from './components/MainContent';
 // import Footer from './components/Footer';
-import styled from 'styled-components';                                                         
-
-const Container = styled.div`
-  width: 90%;
-  margin: auto;
-`;
-
+import { Header } from './components/Header/Header';
+import { Container } from './components/container/container';
 const App = () => { 
   return (
     <Container>
-      {/* <Header /> */}
-      {/* <MainContent /> */}
-      {/* <Footer /> */}
+    <Header />
+    {/* <MainContent /> */}
+    {/* <Footer /> */}
     </Container>
   );
 };
