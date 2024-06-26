@@ -14,6 +14,10 @@ export const Header = () =>{
                 <S.Text>글등록</S.Text>
             </S.SecondHalf>
         </S.FirstHalf>
+        <S.ThridHalf>
+            <S.Btn>login</S.Btn>
+            <S.Btn>register</S.Btn>
+        </S.ThridHalf>
     </S.HeaderBox>        
     )
 }
