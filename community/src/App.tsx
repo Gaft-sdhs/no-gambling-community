@@ -5,11 +5,13 @@ import React from 'react';
 import { Header } from './components/Header/Header';
 import { Container } from './components/container/container';
 import { SearchBar } from './components/searchBar/searchBar';
+import {NoticeBoard} from "./components/board/NoticeBoard";
 const App = () => { 
   return (
     <Container>
     <Header />
     <SearchBar/>
+    <NoticeBoard/>
     {/* <MainContent /> */}
     {/* <Footer /> */}
     </Container>
