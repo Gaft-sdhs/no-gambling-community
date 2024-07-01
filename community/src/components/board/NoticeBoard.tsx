@@ -31,8 +31,8 @@ export const NoticeBoard = () =>{
             console.log(await getAllPosts());
         }
         // console.log(await getPost())
-        getPost();s
-    });
+        getPost();
+    },[]);
     // console.log(getAllPosts())
 
     return(
